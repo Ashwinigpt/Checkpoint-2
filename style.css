@@ -1,0 +1,354 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+/* container */
+.container {
+	max-width: 1200;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.circle {
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-1 {
+	margin-top: 20px;
+    margin-left: 350px;
+}
+.header-2{
+	position: fixed;
+	
+}
+.box {
+	background-color: white;
+	display: flex;
+	margin-top: 30px;
+}
+.logo {
+	height: 70px;
+	width: 70px;
+}
+h1{
+	color: red;
+	padding: 15px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 200px;
+}
+.nav a{
+	text-decoration: none;
+	padding: 15px;
+	font-size: 12px;
+}
+.home {
+	color: red;
+	border-top: red 3px solid;
+	border-bottom: white 1px solid;
+	padding-top: 50% 0;
+}
+.background-img {
+	background-image: url(./assets/media/banner.jpg);
+    background-size: cover;
+	height: 90vh;
+	width: 98.5vw;
+}
+.position {
+	position: absolute;
+	left: 10%;
+	z-index: 1;
+}
+.section {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.marketing {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.more {
+	color: white;
+	font-size: 12px;
+	padding: 20px;
+}
+.red-button {
+	background-color: red;
+	padding: 8px;
+	margin-left: 60px;
+}
+.dot{
+	background-color: black;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+}
+.dot-2{
+	background-color: gray;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+}
+h3{
+	font-size: 18px;
+	padding-top: 80px;
+	text-align: center;
+}
+.hr-1{
+	width: 130px;
+	margin-top: -2px;
+}
+
+.para{
+	font-size: 12px;
+	padding: 10px;
+	color: rgb(110, 109, 109);
+	text-align: center;
+}
+.sky{
+	background-color: rgb(92,189,157);
+	height: 180px;
+	width: 180px;
+	margin: 15px;
+	font-size: 30px;
+}
+.orange{
+	background-color: rgb(230,127,49);
+	height: 180px;
+	width: 180px;
+	margin: 15px;
+	font-size: 30px;
+}
+.blue{
+	background-color: rgb(57,152,219);
+	height: 180px;
+	width: 180px;
+	margin: 15px;
+	font-size: 30px;
+}
+.green{
+	background-color: rgb(104,205,115);
+	height: 180px;
+	width: 180px;
+	margin: 15px;
+	font-size: 30px;
+	color: white;
+}
+.white{
+	color: white;
+}
+.our-service {
+	margin-top: 20px;
+}
+.hr-2{
+	width: 140px;
+	margin-top: -2px;
+} 
+.portfolio-img{
+	height: 180px;
+	width: 180px;
+}
+.img{
+	margin: 20px;
+	padding-top: 10px;
+}
+.portfolio{
+	flex-wrap: wrap;
+}
+.hr-3{
+	width: 90px;
+	margin-top: -2px;
+}
+.member {
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+.members{
+	padding: 20px;
+	margin-top: 10px;
+}
+h4 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+.lorem{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: gray;
+	font-size: 15px;
+}
+.paragraph {
+	margin-left: 120px;
+	font-size: 12px;
+	color: gray;
+	margin-top: 30px;
+	width: 50%;
+	line-height: 1.5;
+}
+.too-css{
+	color: red;
+}
+.grey-box{
+	height: 30px;
+	width: 300px;
+	background-color: rgb(231,231,231);
+	margin: 8px;
+}
+.red-box-90{
+	width: 250px;
+	background-color: rgb(234,81,62);
+	color: white;
+	font-size: 12px;
+    padding: 9px;
+}
+.red-box-80{
+	width: 200px;
+	background-color: rgb(234,81,62);
+	color: white;
+	font-size: 12px;
+    padding: 9px;
+}
+.red-box-70{
+	width: 150px;
+	background-color: rgb(234,81,62);
+	color: white;
+	font-size: 12px;
+    padding: 9px;
+}
+.boxes{
+	margin-left: 680px;
+	margin-top: -170px;
+}
+.hr-4{
+	width: 85px;
+	margin-top: -2px;
+}
+.map{
+	text-align: center;
+}
+.email{
+	color: red;
+}
+.paragraphs{
+	margin-left: 120px;
+	font-size: 12px;
+	color: gray;
+	margin-top: 20px;
+	width: 40%;
+	line-height: 1.5;
+}
+.yourname {
+	border: 1px solid gray;
+	width: 350px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.message{
+	border: 1px solid gray;
+	height: 100px;
+	width: 350px;
+	padding: 10px;
+}
+.square-box{
+	margin-left: 650px;
+	margin-top: -330px;
+}
+.sendmessage{
+	background-color:rgb(234,81,62);
+	padding: 10px;
+	width: 352px;
+	margin-top: 8px;
+	color: white;
+	text-align: center;
+}
+.footer {
+	margin-left: 120px;
+	font-size: 12px;
+	color: gray;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.back-to-top{
+	background-color: rgb(234,81,62);
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	margin-left: 550px;
+}
+.aside{
+	background-color: rgb(234,81,62);
+	height: 555px;
+	width: 300px;
+}
+/* gallery */
+.logo-2{
+	width: 50px;
+	height: 50px;
+	padding: 30px;
+}
+.gal-flex{
+	color: white;
+	margin-left: 70px;
+	margin-top: -85px;
+}
+button{
+	background-color: red;
+}
